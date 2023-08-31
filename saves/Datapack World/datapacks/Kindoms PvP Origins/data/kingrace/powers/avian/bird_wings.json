@@ -1,0 +1,30 @@
+{
+  "name": "Bird Wings",
+  "description": "Your wings always slow you before you hit the ground, negating all fall damage from your quick landings. They also allow you to jump slightly higher.",
+  "type": "origins:multiple",
+
+  "fall_damage": {
+      "type": "origins:invulnerability",
+      "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+      }
+  },
+
+  "jump_heigher": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:jump_boost",
+            "duration": 500,
+            "amplifier": 0,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "interval": 400
+  }
+
+}

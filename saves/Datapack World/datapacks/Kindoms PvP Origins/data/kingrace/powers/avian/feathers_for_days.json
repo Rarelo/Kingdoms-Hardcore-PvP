@@ -1,0 +1,9 @@
+{
+  "name": "Feathers For Days",
+  "description": "When something hits you, you can't help but loose a couple feathers. They'll regrow don't worry",
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "/execute at @s run summon minecraft:item ~ ~1 ~ {Item:{id:feather,Count:1},Motion:[0d,0.3d,0.0d],PickupDelay:60}"
+}
+}

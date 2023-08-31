@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"origins:slow_falling",
+		"kingrace:avian/bird_wings",
+		"kingrace:avian/feathers_for_days",
+		"kingrace:avian/seeds_addiction",
+		"origins:like_air",
+		"origins:tailwind",
+		"origins:vegetarian"
+	],
+	"icon": {
+		"item": "minecraft:feather"
+	},
+	"order": 0,
+	"loading_priority":1,
+	"impact": 1
+}

@@ -1,0 +1,45 @@
+{
+"type": "origins:action_over_time",
+"name": "Underwater night vision",
+"description": "You can see perfectly underwater",
+"entity_action": {
+    "type": "origins:apply_effect",
+    "effect": 
+    {
+        "effect": "minecraft:night_vision",
+        "duration": 40,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": false
+    }
+  },
+  "interval": 20,
+  "conditions": [
+    {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:offset",
+        "y": 0,
+        "condition": {
+            "type": "origins:fluid",  
+            "fluid_condition": {
+            "type": "origins:still"
+            }
+        }
+      }
+    },
+    {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:offset",
+        "y": 1,
+        "condition": {
+            "type": "origins:fluid",  
+            "fluid_condition": {
+            "type": "origins:still"
+            }
+        }
+      }
+    }
+  ]
+}
