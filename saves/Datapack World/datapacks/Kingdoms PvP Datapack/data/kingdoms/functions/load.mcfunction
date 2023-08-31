@@ -29,8 +29,6 @@ team modify team9 color green
 team add team10
 team modify team10 color light_purple
 
-scoreboard objectives add isMerling dummy
-scoreboard objectives add isAvian dummy
 scoreboard objectives add isFeline dummy
 scoreboard objectives add isShulker dummy
 scoreboard objectives add isArachnid dummy
