@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"kingrace:merling/breathe_underwater",
+		"kingrace:merling/water_vision",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:like_water",
+		"origins:aquatic"
+	],
+	"icon": {
+		"item": "minecraft:cod"
+	},
+	"order": 1,
+	"loading_priority":1,
+	"impact": 3
+}
