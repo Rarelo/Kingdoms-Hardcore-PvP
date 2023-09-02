@@ -1,0 +1,49 @@
+{
+    "name": "Breath of the Dragon",
+    "description": "Your descendancy allows you to easily collect the coveted dragon's breath by blowing into an empty bottle while shifting.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                }
+            },
+            {
+                "type": "origins:give",
+                "stack": {
+                    "item": "minecraft:dragon_breath"
+                },
+                "preferred_slot": "mainhand"
+            }
+        ]
+    },
+    "cooldown": 20,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 20,
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    },
+    "conditions": [ {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:glass_bottle"
+            }
+        }
+        },
+        {"type": "origins:sneaking"}
+        ]
+    }
+
+ 

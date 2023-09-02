@@ -24,7 +24,6 @@
 	[origins."origins:blazeborn"]
 		enabled = true
 		"origins:fire_immunity" = true
-		"origins:nether_spawn" = false
 		"origins:burning_wrath" = false
 		"origins:hotblooded" = true
 		"origins:water_vulnerability" = true
@@ -40,32 +39,31 @@
 		"origins:tailwind" = true
 		"origins:lay_eggs" = true
 		"origins:vegetarian" = true
+		"kingrace:avian/bird_wings" = true
+		"kingrace:avian/feathers_for_days" = true
+		"kingrace:avian/seeds_addiction" = true
 
 	[origins."origins:feline"]
 		enabled = true
 		"origins:fall_immunity" = true
-		"origins:sprint_jump" = false
-		"origins:velvet_paws" = false
 		"origins:nine_lives" = true
-		"origins:weak_arms" = false
 		"origins:scare_creepers" = true
 		"origins:cat_vision" = true
+		"origins:velvet_paws" = true
 
 	[origins."origins:elytrian"]
 		enabled = true
 		"origins:elytra" = true
-		"origins:launch_into_air" = false
-		"origins:aerial_combatant" = false
-		"origins:light_armor" = true
-		"origins:claustrophobia" = false
+		"origins:aerial_combatant" = true
 		"origins:more_kinetic_damage" = true
+		"kingrace:elytrian/dragons_breath" = true
+		"kingrace:elytrian/dragons_scales" = true
+		"kingrace:elytrian/dragons_blood" = true
+		"kingrace:elytrian/more_kinetic_damage" = true
 
 	[origins."origins:shulk"]
 		enabled = true
 		"origins:shulker_inventory" = true
-		"origins:natural_armor" = false
-		"origins:strong_arms" = false
-		"origins:strong_arms_break_speed" = false
 		"origins:no_shield" = true
 		"origins:more_exhaustion" = true
 
@@ -79,9 +77,11 @@
 		"origins:aquatic" = true
 		"origins:conduit_power_on_land" = true
 		"origins:air_from_potions" = true
+		"kingrace:merling/breathe_underwater" = true
+		"kingrace:merling/water_vision" = true
 
 	[origins."origins:phantom"]
-		enabled = false
+		enabled = true
 		"origins:phantomize" = true
 		"origins:translucent" = true
 		"origins:phasing" = true

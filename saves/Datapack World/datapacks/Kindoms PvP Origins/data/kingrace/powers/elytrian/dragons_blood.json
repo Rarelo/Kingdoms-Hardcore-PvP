@@ -1,0 +1,23 @@
+{
+    "name": "Dragon Blood",
+    "description": "Your thick reptile blood makes your natural regeneration speed quite slow; however your slow metabolism means that you don't consume hunger for this healing.",
+    "type": "origins:multiple",
+
+    "disable_hunger_heal": {
+    "type": "origins:disable_regen"
+    },
+
+    "new_heal": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": 1
+        },
+        "interval": 400
+    },
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 6
+    }
+
+}

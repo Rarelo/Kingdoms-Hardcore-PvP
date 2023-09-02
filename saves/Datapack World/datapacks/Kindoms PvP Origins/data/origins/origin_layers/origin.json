@@ -9,14 +9,13 @@
     "origins:elytrian",
     "origins:enderian",
     "origins:feline",
-    "origins:human",
     "origins:merling",
-    "origins:shulk"
+    "origins:shulk",
+    "origins:human"
   ],
   "allow_random": false,
   "exclude_random": [
-    "origins:human"
   ],
-  "allow_random_unchoosable": false,
+  "allow_random_unchoosable": true,
   "hidden": false
 }
