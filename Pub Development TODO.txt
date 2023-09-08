@@ -1,0 +1,17 @@
+## Current Issues
+- sourceberries and golden apples can't be eaten by werewolf/carnivores
+- get some tools mod because villagers are not fun
+- craftable tridents?
+- cheaper create recipe for tracks?
+- roasted mutton chops weird for vegetarians bugged
+- maybe music mobs could drop music disks?    tag     "spawnedWithBackpack",
+- werewolf trinket drops are like way too rare, apparently vampires also get them from hunters
+- avian active ability can toggle slow fall and maybe also jump boost
+- can also make arachnid night vision toggable
+- make dirt with brewing or something?
+- could fish up trash ancient tomes and trade them to villagers
+- worst case senario make disguise hide hunters from mobs but not players, quick respawn
+- add moon charm crafting recipe
+- heavy armor (try to enforce being slow), better than netherite?, takes diamonds to cope a higher durability?
+- maybe merlings have a (quite short) blinding ink attack and a related item drop
+- Tier 3 ars armor currently uncraftable because of chorus fruit

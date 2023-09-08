@@ -1,0 +1,18 @@
+Setting Up a Server
+
+Here are the steps you'll need to follow to need to follow to set up your own server for this modpack 
+(or probably any other forge modpack) from scratch.
+
+1. Go to the forge website and grab the installer for forge. This modpack uses version 43.2.3. Install it in a empty folder
+2. Run run.bat (or .sh for linux) once. It will create some extra folders so you don't need to
+3. Copy all the mods from the downloaded singleplayer modpack into the mods folder. 
+Then delete the darkness-forge-mc and fadingnightvision mod jars because they are client only and crashes the server if kept
+4. Copy all the configs from the modpack into the config folder
+5. Copy the modpack's scripts folder into the main server folder. If another pack uses another scripting mod like KubeJS instead of
+craftweaker this will be slightly different.
+6. Create a "world" folder in your main server folder, then inside it create a "datapacks" and "serverconfig" folder. 
+Misspelling these folders will cause the files contained in them to not work
+7. Copy the configuration files from the singleplayer "Datapack World" serverconfig to the server's serverconfig folder
+8. Copy the datapacks included in the "Datapack World" "datapacks" folder into your server world's new "datapacks" folder
+9. The server should automatically start up with the scripts, configs, and datapack working in your world. 
+If you want a sanity check, you can reference your files you just set up against this modpack's downloadable sever zips
