@@ -13,5 +13,8 @@
 - worst case senario make disguise hide hunters from mobs but not players, quick respawn
 - add moon charm crafting recipe
 - heavy armor (try to enforce being slow), better than netherite?, takes diamonds to cope a higher durability?
-- maybe merlings have a (quite short) blinding ink attack and a related item drop
 - Tier 3 ars armor currently uncraftable because of chorus fruit
+
+Continue updating origins with new featues and system
+- make it so people don't need to use the scoreboard for origins
+- maybe merlings have a (quite short) blinding ink attack and a related item drop
